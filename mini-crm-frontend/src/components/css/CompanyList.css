@@ -1,0 +1,108 @@
+/* Full-page container to center everything */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.company-list-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    /* margin-top: -100px; */
+    color: #333;
+}
+
+.company-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-item {
+    margin-bottom: 10px;
+}
+
+.company-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.company-link:hover {
+    color: #0056b3;
+}
+
+.no-companies {
+    color: #6c757d;
+    font-style: italic;
+    text-align: center;
+}
+
+.add-company-link {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-company-link:hover {
+    background-color: #218838;
+}
+.company-item {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Separate companies */
+}
+
+.company-name {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.edit-link {
+    margin-right: 10px;
+    color: #007bff; /* Blue for edit link */
+    font-size: 1.2rem; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #dc3545; /* Red for delete icon */
+    font-size: 1.2rem; 
+}
+
+.delete-button:hover {
+    color: #a71c24; 
+}
+
